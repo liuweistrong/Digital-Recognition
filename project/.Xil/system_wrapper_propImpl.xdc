@@ -1,0 +1,15 @@
+set_property SRC_FILE_INFO {cfile:c:/Users/dell/Desktop/color_detect/spartan_cam/spartan_cam.srcs/sources_1/bd/system/ip/system_clk_wiz_0_1/system_clk_wiz_0_1.xdc rfile:../spartan_cam.srcs/sources_1/bd/system/ip/system_clk_wiz_0_1/system_clk_wiz_0_1.xdc id:1 order:EARLY scoped_inst:system_i/clk_wiz_0/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Users/dell/Desktop/color_detect/spartan_cam/spartan_cam.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc rfile:../spartan_cam.srcs/sources_1/bd/system/ip/system_clk_wiz_1_0/system_clk_wiz_1_0.xdc id:2 order:EARLY scoped_inst:system_i/clk_wiz_1/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/dell/Desktop/color_detect/spartan_cam/spartan_cam.srcs/constrs_1/new/system.xdc rfile:../spartan_cam.srcs/constrs_1/new/system.xdc id:3} [current_design]
+set_property src_info {type:SCOPED_XDC file:1 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.1
+set_property src_info {type:SCOPED_XDC file:2 line:57 export:INPUT save:INPUT read:READ} [current_design]
+set_input_jitter [get_clocks -of_objects [get_ports clk_in1]] 0.1
+set_property src_info {type:XDC file:3 line:59 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN M2 [get_ports sw_ColorClear_0]
+set_property src_info {type:XDC file:3 line:60 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L2 [get_ports btn_ColorExtract_0]
+set_property src_info {type:XDC file:3 line:61 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports btn_ColorExtract_0]
+set_property src_info {type:XDC file:3 line:62 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS33 [get_ports sw_ColorClear_0]

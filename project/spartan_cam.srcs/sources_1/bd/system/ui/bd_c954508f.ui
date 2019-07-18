@@ -1,0 +1,86 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port clk_rxp_0 -pg 1 -y 770 -defaultsOSRD
+preplace port clk_in1_0 -pg 1 -y 540 -defaultsOSRD
+preplace port TMDS_0 -pg 1 -y 130 -defaultsOSRD
+preplace port UART_0 -pg 1 -y 450 -defaultsOSRD
+preplace port cam_iic -pg 1 -y 300 -defaultsOSRD
+preplace port clk_rxn_0 -pg 1 -y 790 -defaultsOSRD
+preplace portBus cam_gpio -pg 1 -y 680 -defaultsOSRD
+preplace portBus data_lp_n_0 -pg 1 -y 870 -defaultsOSRD
+preplace portBus data_rxp_0 -pg 1 -y 810 -defaultsOSRD
+preplace portBus ardi_io -pg 1 -y -270 -defaultsOSRD
+preplace portBus data_lp_p_0 -pg 1 -y 850 -defaultsOSRD
+preplace portBus data_rxn_0 -pg 1 -y 830 -defaultsOSRD
+preplace inst rgb_test_0 -pg 1 -lvl 6 -y -40 -defaultsOSRD
+preplace inst lcd_num_0 -pg 1 -lvl 6 -y -270 -defaultsOSRD
+preplace inst csi_to_axis_0 -pg 1 -lvl 3 -y 770 -defaultsOSRD
+preplace inst bayer2rgb_0 -pg 1 -lvl 5 -y 130 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 6 -y 420 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -y 810 -defaultsOSRD
+preplace inst digital_recognition_0 -pg 1 -lvl 5 -y -90 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -y 420 -defaultsOSRD
+preplace inst rst_clk_wiz_0_200M -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst rgb2dvi_0 -pg 1 -lvl 7 -y 100 -defaultsOSRD
+preplace inst csi2_d_phy_rx_0 -pg 1 -lvl 2 -y 800 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst csi2dvp_0 -pg 1 -lvl 4 -y 160 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -y 560 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 500 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 540 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 3 -y 270 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -y 670 -defaultsOSRD
+preplace netloc rst_clk_wiz_0_200M_bus_struct_reset 1 3 2 930J 410 1440J
+preplace netloc rgb_test_0_RGB_render 1 6 1 2140
+preplace netloc csi2dvp_0_hdata 1 4 2 1440 10 1780
+preplace netloc bayer2rgb_0_vsync_out 1 5 2 1820 90 N
+preplace netloc clk_wiz_0_locked 1 1 2 NJ 550 N
+preplace netloc data_rxn_0_1 1 0 2 NJ 830 NJ
+preplace netloc data_rxp_0_1 1 0 2 NJ 810 NJ
+preplace netloc bayer2rgb_0_data_out 1 5 1 1800
+preplace netloc microblaze_0_Clk 1 1 5 220 530 530 460 950 390 1470 580 1800
+preplace netloc digital_recognition_0_digital 1 5 1 1820
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 5 1 N
+preplace netloc microblaze_0_M_AXI_DP 1 4 1 1460
+preplace netloc microblaze_0_ilmb_1 1 4 1 1430
+preplace netloc rgb2dvi_0_TMDS 1 7 1 2630
+preplace netloc lcd_num_0_ardi_io 1 6 2 NJ -270 N
+preplace netloc csi2_d_phy_rx_0_rxbyteclkhs 1 2 2 520 160 NJ
+preplace netloc csi2dvp_0_vid_hsync 1 4 1 N
+preplace netloc csi2dvp_0_vid_active_video 1 4 1 N
+preplace netloc xlconstant_0_dout 1 2 6 530 870 NJ 870 NJ 870 1810 680 2160J 680 NJ
+preplace netloc data_lp_n_0_1 1 0 2 NJ 870 NJ
+preplace netloc data_lp_p_0_1 1 0 2 NJ 850 NJ
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 1780
+preplace netloc csi2_d_phy_rx_0_RX_MIPI_PPI 1 2 1 510
+preplace netloc rgb_test_0_gray_data 1 4 3 1480 -190 N -190 2130
+preplace netloc clk_wiz_1_clk_out1 1 3 4 880 40 1470 -180 1780J -140 2150
+preplace netloc bayer2rgb_0_hsync_out 1 5 2 1810 70 N
+preplace netloc rst_clk_wiz_0_200M_peripheral_aresetn 1 3 3 940J 400 1480 260 1820
+preplace netloc rst_clk_wiz_0_200M_mb_reset 1 3 1 N
+preplace netloc clk_rxn_0_1 1 0 2 NJ 790 NJ
+preplace netloc clk_in1_0_1 1 0 1 NJ
+preplace netloc axi_uartlite_0_UART 1 6 2 NJ 550 2630
+preplace netloc axi_iic_0_IIC 1 6 2 NJ 400 2630
+preplace netloc csi_to_axis_0_data_err 1 1 3 230J 470 NJ 470 880
+preplace netloc csi2dvp_0_vdata 1 4 2 1450 0 1790
+preplace netloc clk_wiz_1_clk_out2 1 3 4 910J 50 1460J 250 NJ 250 2170
+preplace netloc csi2dvp_0_vid_data 1 4 1 1430
+preplace netloc rst_clk_wiz_0_200M_interconnect_aresetn 1 3 2 910 360 NJ
+preplace netloc csi_to_axis_0_M_AXIS 1 3 1 920
+preplace netloc microblaze_0_dlmb_1 1 4 1 1450
+preplace netloc bayer2rgb_0_de_out 1 5 2 1830 110 N
+preplace netloc csi2dvp_0_vid_vsync 1 4 1 N
+preplace netloc microblaze_0_debug 1 3 1 900
+preplace netloc mdm_1_debug_sys_rst 1 2 2 530 670 890
+preplace netloc clk_rxp_0_1 1 0 2 NJ 770 NJ
+levelinfo -pg 1 -20 120 380 710 1190 1630 1980 2500 2650 -top -410 -bot 930
+",
+}
+{
+   da_axi4_cnt: "4",
+   da_board_cnt: "1",
+   da_mb_cnt: "2",
+}
